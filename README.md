@@ -1,2 +1,101 @@
-# aws-3tier-architecture-terraform
-Production-ready 3-tier AWS architecture built with Terraform including VPC, ALB, Auto Scaling, and RDS with remote state management.
+# AWS Three-Tier Production Architecture (Terraform)
+
+A highly available **three-tier AWS architecture** built using Infrastructure as Code with Terraform.
+This project demonstrates how to design and deploy a scalable cloud application using core AWS services.
+
+The architecture separates the application into **presentation, application, and data layers**, improving scalability, security, and maintainability.
+
+---
+
+## Architecture Overview
+
+The infrastructure provisions a production-style architecture consisting of:
+
+Internet → Application Load Balancer → Auto Scaling EC2 → RDS Database
+
+The system is deployed inside a custom VPC with public and private subnets.
+
+---
+
+## AWS Services Used
+
+Core services used in this architecture include:
+
+• Amazon VPC – isolated network environment
+• Application Load Balancer – distributes incoming traffic
+• Amazon EC2 – compute instances running the application
+• EC2 Auto Scaling – ensures high availability and scalability
+• Amazon RDS – managed relational database
+• Internet Gateway – enables internet connectivity
+• Security Groups – network level security
+
+---
+
+## Infrastructure as Code
+
+All infrastructure is defined using **Terraform**, allowing the entire environment to be deployed reproducibly.
+
+Key Terraform components:
+
+providers.tf – AWS provider configuration
+versions.tf – Terraform version requirements
+variables.tf – reusable infrastructure variables
+main.tf – core infrastructure resources
+
+---
+
+## Key Features
+
+High availability architecture
+Auto-scaling compute layer
+Load balanced traffic distribution
+Secure database tier
+Infrastructure fully defined as code
+
+---
+
+## Architecture Diagram
+
+(Add architecture diagram here)
+
+---
+
+## Project Structure
+
+```
+aws-3tier-production-architecture
+│
+├── main.tf
+├── providers.tf
+├── variables.tf
+├── versions.tf
+├── README.md
+└── LICENSE
+```
+
+---
+
+## What This Project Demonstrates
+
+This project demonstrates practical experience with:
+
+• AWS networking and VPC design
+• Load balancing and traffic distribution
+• Auto scaling infrastructure
+• Managed databases
+• Infrastructure as Code with Terraform
+
+---
+
+## Learning Objective
+
+The goal of this project is to implement a real-world **three-tier cloud architecture** that mirrors patterns used in production systems.
+
+This project is part of preparation for the AWS Solutions Architect certification.
+
+---
+
+## License
+
+MIT License
+

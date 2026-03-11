@@ -2,7 +2,6 @@
 
 A highly available **three-tier AWS architecture** built using Infrastructure as Code with Terraform.
 This project demonstrates how to design and deploy a scalable cloud application using core AWS services.
-
 The architecture separates the application into **presentation, application, and data layers**, improving scalability, security, and maintainability.
 
 ---

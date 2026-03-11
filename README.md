@@ -55,7 +55,7 @@ Infrastructure fully defined as code
 
 ## Architecture Diagram
 
-(Add architecture diagram here)
+-
 
 ---
 

@@ -86,14 +86,6 @@ This project demonstrates practical experience with:
 
 ---
 
-## Learning Objective
-
-The goal of this project is to implement a real-world **three-tier cloud architecture** that mirrors patterns used in production systems.
-
-This project is part of preparation for the AWS Solutions Architect certification.
-
----
-
 ## License
 
 MIT License

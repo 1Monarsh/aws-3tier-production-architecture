@@ -8,12 +8,18 @@ The architecture separates the application into **presentation, application, and
 
 ## Architecture Overview
 
-The infrastructure provisions a production-style architecture consisting of:
+This architecture represents a production-style AWS security model designed for multi-account environments with centralized governance, threat detection, and automated response.
 
-Internet → Application Load Balancer → Auto Scaling EC2 → RDS Database
+It follows a layered security approach:
 
-The system is deployed inside a custom VPC with public and private subnets.
+- Identity Layer → IAM, AWS SSO
+- Perimeter Layer → WAF, Shield, CloudFront
+- Network Layer → VPC segmentation (public/private subnets)
+- Application Layer → EC2, RDS, Lambda
+- Detection Layer → GuardDuty, Security Hub, CloudWatch
+- Response Layer → Lambda automation
 
+The goal is to minimize blast radius, enforce least privilege, and enable real-time threat detection with automated remediation.
 ---
 
 ## AWS Services Used

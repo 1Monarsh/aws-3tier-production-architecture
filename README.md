@@ -54,8 +54,9 @@ Infrastructure fully defined as code
 ---
 
 ## Architecture Diagram
+<img width="1408" height="768" alt="Architecture Daigram" src="https://github.com/user-attachments/assets/8635580d-02ff-461b-9421-8e9290710479" />
 
--
+
 
 ---
 
